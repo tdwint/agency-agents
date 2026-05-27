@@ -4,7 +4,7 @@
 A full sermon processing pipeline that takes YouTube/web sermon URLs, transcribes them, and extracts structured content: outlines, scripture references, key quotes, application points, and discussion questions. The output is a comprehensive sermon study guide that congregation members can use for personal study and small group discussion.
 
 ## Who It Is For
-Congregation members at a non-denominational church who want to revisit and dig deeper into sermons throughout the week. They range from new believers to mature Christians, so output must be accessible without dumbing down the content. They may not have seminary training or familiarity with theological jargon.
+Congregation members at a non-denominational church who want to revisit and dig deeper into sermons throughout the week. This is a chapel in the woods, open air, very informal. The people who attend are for the most part believers but they might range from new believers to mature Christians, so output must be accessible without dumbing down the content. There are occassional skeptics who attendThey may not have seminary training or familiarity with theological jargon.
 
 ## What Success Looks Like
 - Every sermon URL produces a complete, structured study guide within a single run
@@ -27,7 +27,7 @@ Congregation members at a non-denominational church who want to revisit and dig 
 /Sermons/
   CLAUDE.md              - This file
   /skills/               - Skill instruction files (extraction prompts, processing steps)
-  /outputs/              - Generated sermon study guides
+  /outputs/              - Generated sermon study guides and 20 minute version of the sermon
   /references/           - Style guide, example outputs, church branding notes
   /test-data/            - Sample sermon URLs, raw transcripts for testing
 ```
@@ -52,6 +52,14 @@ Congregation members at a non-denominational church who want to revisit and dig 
 - Inclusive tone — assume the reader might be brand new to church
 - Do this: "This passage reminds us that generosity starts with gratitude"
 - Not this: "The exegetical framework of this pericope underscores stewardship theology"
+- Write in a plain, direct, conversational tone — the way a thoughtful man talks to a peer he respects.
+- Use short declarative sentences mixed with longer ones that connect naturally with "and."
+- Drop straight into the situation with no preamble.
+- Anchor abstract ideas in specific, concrete details.
+- Use fragments for emphasis.
+- End sections with a single short punchy line.
+- No flowery language, no hedging, no passive voice, no words chosen to impress.
+- Personality shows up in dry understatement, not wit
 
 ## Domain Language
 - "fellowship" = community, doing life together
